@@ -1,4 +1,0 @@
-MUS
-===
-
-Mortgage Underwriting System
