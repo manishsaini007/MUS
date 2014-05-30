@@ -10,7 +10,7 @@ namespace MortgageUnderwritingSystem.Webpages.Private
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string myname = "Manish Saini";
         }
     }
 }
