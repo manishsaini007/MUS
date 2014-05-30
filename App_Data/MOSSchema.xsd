@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MOSSchema" targetNamespace="http://tempuri.org/MOSSchema.xsd" xmlns:mstns="http://tempuri.org/MOSSchema.xsd" xmlns="http://tempuri.org/MOSSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MOSSchema" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="MOSSchema" msprop:Generator_UserDSName="MOSSchema">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LOAN" msprop:Generator_TableClassName="LOANDataTable" msprop:Generator_TableVarName="tableLOAN" msprop:Generator_TablePropName="LOAN" msprop:Generator_RowDeletingName="LOANRowDeleting" msprop:Generator_RowChangingName="LOANRowChanging" msprop:Generator_RowEvHandlerName="LOANRowChangeEventHandler" msprop:Generator_RowDeletedName="LOANRowDeleted" msprop:Generator_UserTableName="LOAN" msprop:Generator_RowChangedName="LOANRowChanged" msprop:Generator_RowEvArgName="LOANRowChangeEvent" msprop:Generator_RowClassName="LOANRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LOAN_NUM" msprop:Generator_ColumnVarNameInTable="columnLOAN_NUM" msprop:Generator_ColumnPropNameInRow="LOAN_NUM" msprop:Generator_ColumnPropNameInTable="LOAN_NUMColumn" msprop:Generator_UserColumnName="LOAN_NUM" type="xs:string" minOccurs="0" />
+              <xs:element name="INTEREST_RATE" msprop:Generator_ColumnVarNameInTable="columnINTEREST_RATE" msprop:Generator_ColumnPropNameInRow="INTEREST_RATE" msprop:Generator_ColumnPropNameInTable="INTEREST_RATEColumn" msprop:Generator_UserColumnName="INTEREST_RATE" type="xs:string" minOccurs="0" />
+              <xs:element name="SALES_PRICE" msprop:Generator_ColumnVarNameInTable="columnSALES_PRICE" msprop:Generator_ColumnPropNameInRow="SALES_PRICE" msprop:Generator_ColumnPropNameInTable="SALES_PRICEColumn" msprop:Generator_UserColumnName="SALES_PRICE" type="xs:string" minOccurs="0" />
+              <xs:element name="APPRAISED_VALUE" msprop:Generator_ColumnVarNameInTable="columnAPPRAISED_VALUE" msprop:Generator_ColumnPropNameInRow="APPRAISED_VALUE" msprop:Generator_ColumnPropNameInTable="APPRAISED_VALUEColumn" msprop:Generator_UserColumnName="APPRAISED_VALUE" type="xs:string" minOccurs="0" />
+              <xs:element name="DOWN_PAYMENT" msprop:Generator_ColumnVarNameInTable="columnDOWN_PAYMENT" msprop:Generator_ColumnPropNameInRow="DOWN_PAYMENT" msprop:Generator_ColumnPropNameInTable="DOWN_PAYMENTColumn" msprop:Generator_UserColumnName="DOWN_PAYMENT" type="xs:string" minOccurs="0" />
+              <xs:element name="LOAN_AMOUNT" msprop:Generator_ColumnVarNameInTable="columnLOAN_AMOUNT" msprop:Generator_ColumnPropNameInRow="LOAN_AMOUNT" msprop:Generator_ColumnPropNameInTable="LOAN_AMOUNTColumn" msprop:Generator_UserColumnName="LOAN_AMOUNT" type="xs:string" minOccurs="0" />
+              <xs:element name="CLOSING_COST" msprop:Generator_ColumnVarNameInTable="columnCLOSING_COST" msprop:Generator_ColumnPropNameInRow="CLOSING_COST" msprop:Generator_ColumnPropNameInTable="CLOSING_COSTColumn" msprop:Generator_UserColumnName="CLOSING_COST" type="xs:string" minOccurs="0" />
+              <xs:element name="P_N_I" msprop:Generator_ColumnVarNameInTable="columnP_N_I" msprop:Generator_ColumnPropNameInRow="P_N_I" msprop:Generator_ColumnPropNameInTable="P_N_IColumn" msprop:Generator_UserColumnName="P_N_I" type="xs:string" minOccurs="0" />
+              <xs:element name="MONTHLY_DEBT" msprop:Generator_ColumnVarNameInTable="columnMONTHLY_DEBT" msprop:Generator_ColumnPropNameInRow="MONTHLY_DEBT" msprop:Generator_ColumnPropNameInTable="MONTHLY_DEBTColumn" msprop:Generator_UserColumnName="MONTHLY_DEBT" type="xs:string" minOccurs="0" />
+              <xs:element name="LTV" msprop:Generator_ColumnVarNameInTable="columnLTV" msprop:Generator_ColumnPropNameInRow="LTV" msprop:Generator_ColumnPropNameInTable="LTVColumn" msprop:Generator_UserColumnName="LTV" type="xs:string" minOccurs="0" />
+              <xs:element name="CLTV" msprop:Generator_ColumnVarNameInTable="columnCLTV" msprop:Generator_ColumnPropNameInRow="CLTV" msprop:Generator_ColumnPropNameInTable="CLTVColumn" msprop:Generator_UserColumnName="CLTV" type="xs:string" minOccurs="0" />
+              <xs:element name="DTI" msprop:Generator_ColumnVarNameInTable="columnDTI" msprop:Generator_ColumnPropNameInRow="DTI" msprop:Generator_ColumnPropNameInTable="DTIColumn" msprop:Generator_UserColumnName="DTI" type="xs:string" minOccurs="0" />
+              <xs:element name="TDTI" msprop:Generator_ColumnVarNameInTable="columnTDTI" msprop:Generator_ColumnPropNameInRow="TDTI" msprop:Generator_ColumnPropNameInTable="TDTIColumn" msprop:Generator_UserColumnName="TDTI" type="xs:string" minOccurs="0" />
+              <xs:element name="LENDER_ID" msprop:Generator_ColumnVarNameInTable="columnLENDER_ID" msprop:Generator_ColumnPropNameInRow="LENDER_ID" msprop:Generator_ColumnPropNameInTable="LENDER_IDColumn" msprop:Generator_UserColumnName="LENDER_ID" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LOAN_BORROWER" msprop:Generator_TableClassName="LOAN_BORROWERDataTable" msprop:Generator_TableVarName="tableLOAN_BORROWER" msprop:Generator_TablePropName="LOAN_BORROWER" msprop:Generator_RowDeletingName="LOAN_BORROWERRowDeleting" msprop:Generator_RowChangingName="LOAN_BORROWERRowChanging" msprop:Generator_RowEvHandlerName="LOAN_BORROWERRowChangeEventHandler" msprop:Generator_RowDeletedName="LOAN_BORROWERRowDeleted" msprop:Generator_UserTableName="LOAN_BORROWER" msprop:Generator_RowChangedName="LOAN_BORROWERRowChanged" msprop:Generator_RowEvArgName="LOAN_BORROWERRowChangeEvent" msprop:Generator_RowClassName="LOAN_BORROWERRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LOAN_BORROWER_ID" msprop:Generator_ColumnVarNameInTable="columnLOAN_BORROWER_ID" msprop:Generator_ColumnPropNameInRow="LOAN_BORROWER_ID" msprop:Generator_ColumnPropNameInTable="LOAN_BORROWER_IDColumn" msprop:Generator_UserColumnName="LOAN_BORROWER_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="LOAN_NUM" msprop:Generator_ColumnVarNameInTable="columnLOAN_NUM" msprop:Generator_ColumnPropNameInRow="LOAN_NUM" msprop:Generator_ColumnPropNameInTable="LOAN_NUMColumn" msprop:Generator_UserColumnName="LOAN_NUM" type="xs:string" minOccurs="0" />
+              <xs:element name="FIRST_NAME" msprop:Generator_ColumnVarNameInTable="columnFIRST_NAME" msprop:Generator_ColumnPropNameInRow="FIRST_NAME" msprop:Generator_ColumnPropNameInTable="FIRST_NAMEColumn" msprop:Generator_UserColumnName="FIRST_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="LAST_NAME" msprop:Generator_ColumnVarNameInTable="columnLAST_NAME" msprop:Generator_ColumnPropNameInRow="LAST_NAME" msprop:Generator_ColumnPropNameInTable="LAST_NAMEColumn" msprop:Generator_UserColumnName="LAST_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="SEX" msprop:Generator_ColumnVarNameInTable="columnSEX" msprop:Generator_ColumnPropNameInRow="SEX" msprop:Generator_ColumnPropNameInTable="SEXColumn" msprop:Generator_UserColumnName="SEX" type="xs:string" minOccurs="0" />
+              <xs:element name="MONTHLY_INCOME" msprop:Generator_ColumnVarNameInTable="columnMONTHLY_INCOME" msprop:Generator_ColumnPropNameInRow="MONTHLY_INCOME" msprop:Generator_ColumnPropNameInTable="MONTHLY_INCOMEColumn" msprop:Generator_UserColumnName="MONTHLY_INCOME" type="xs:string" minOccurs="0" />
+              <xs:element name="YEARLY_INCOME" msprop:Generator_ColumnVarNameInTable="columnYEARLY_INCOME" msprop:Generator_ColumnPropNameInRow="YEARLY_INCOME" msprop:Generator_ColumnPropNameInTable="YEARLY_INCOMEColumn" msprop:Generator_UserColumnName="YEARLY_INCOME" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LOAN_PROPERTY" msprop:Generator_TableClassName="LOAN_PROPERTYDataTable" msprop:Generator_TableVarName="tableLOAN_PROPERTY" msprop:Generator_TablePropName="LOAN_PROPERTY" msprop:Generator_RowDeletingName="LOAN_PROPERTYRowDeleting" msprop:Generator_RowChangingName="LOAN_PROPERTYRowChanging" msprop:Generator_RowEvHandlerName="LOAN_PROPERTYRowChangeEventHandler" msprop:Generator_RowDeletedName="LOAN_PROPERTYRowDeleted" msprop:Generator_UserTableName="LOAN_PROPERTY" msprop:Generator_RowChangedName="LOAN_PROPERTYRowChanged" msprop:Generator_RowEvArgName="LOAN_PROPERTYRowChangeEvent" msprop:Generator_RowClassName="LOAN_PROPERTYRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LOAN_NUM" msprop:Generator_ColumnVarNameInTable="columnLOAN_NUM" msprop:Generator_ColumnPropNameInRow="LOAN_NUM" msprop:Generator_ColumnPropNameInTable="LOAN_NUMColumn" msprop:Generator_UserColumnName="LOAN_NUM" type="xs:string" minOccurs="0" />
+              <xs:element name="ADDRESS1" msprop:Generator_ColumnVarNameInTable="columnADDRESS1" msprop:Generator_ColumnPropNameInRow="ADDRESS1" msprop:Generator_ColumnPropNameInTable="ADDRESS1Column" msprop:Generator_UserColumnName="ADDRESS1" type="xs:string" minOccurs="0" />
+              <xs:element name="ADDRESS2" msprop:Generator_ColumnVarNameInTable="columnADDRESS2" msprop:Generator_ColumnPropNameInRow="ADDRESS2" msprop:Generator_ColumnPropNameInTable="ADDRESS2Column" msprop:Generator_UserColumnName="ADDRESS2" type="xs:string" minOccurs="0" />
+              <xs:element name="CITY" msprop:Generator_ColumnVarNameInTable="columnCITY" msprop:Generator_ColumnPropNameInRow="CITY" msprop:Generator_ColumnPropNameInTable="CITYColumn" msprop:Generator_UserColumnName="CITY" type="xs:string" minOccurs="0" />
+              <xs:element name="STATE" msprop:Generator_ColumnVarNameInTable="columnSTATE" msprop:Generator_ColumnPropNameInRow="STATE" msprop:Generator_ColumnPropNameInTable="STATEColumn" msprop:Generator_UserColumnName="STATE" type="xs:string" minOccurs="0" />
+              <xs:element name="ZIP" msprop:Generator_ColumnVarNameInTable="columnZIP" msprop:Generator_ColumnPropNameInRow="ZIP" msprop:Generator_ColumnPropNameInTable="ZIPColumn" msprop:Generator_UserColumnName="ZIP" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LENDER" msprop:Generator_TableClassName="LENDERDataTable" msprop:Generator_TableVarName="tableLENDER" msprop:Generator_TablePropName="LENDER" msprop:Generator_RowDeletingName="LENDERRowDeleting" msprop:Generator_RowChangingName="LENDERRowChanging" msprop:Generator_RowEvHandlerName="LENDERRowChangeEventHandler" msprop:Generator_RowDeletedName="LENDERRowDeleted" msprop:Generator_UserTableName="LENDER" msprop:Generator_RowChangedName="LENDERRowChanged" msprop:Generator_RowEvArgName="LENDERRowChangeEvent" msprop:Generator_RowClassName="LENDERRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LENDER_ID" msprop:Generator_ColumnVarNameInTable="columnLENDER_ID" msprop:Generator_ColumnPropNameInRow="LENDER_ID" msprop:Generator_ColumnPropNameInTable="LENDER_IDColumn" msprop:Generator_UserColumnName="LENDER_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="LENDER_NAME" msprop:Generator_ColumnVarNameInTable="columnLENDER_NAME" msprop:Generator_ColumnPropNameInRow="LENDER_NAME" msprop:Generator_ColumnPropNameInTable="LENDER_NAMEColumn" msprop:Generator_UserColumnName="LENDER_NAME" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

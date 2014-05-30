@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Masters\Course - Large Scale Application Deployment\TechTasks\Task1\MortgageUnderwirtingSystem\Deployment" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="05/29/2014 19:51:02" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="05/29/2014 19:51:02" />
+    <file relUrl="bin/MortgageUnderwirtingSystem.pdb" publishTime="05/29/2014 20:39:20" />
+    <file relUrl="bin/MortgageUnderwirtingSystem.dll" publishTime="05/29/2014 20:39:20" />
+    <file relUrl="Web.config" publishTime="05/29/2014 20:39:21" />
+    <file relUrl="Webpages/Private/LoanDetails.aspx" publishTime="05/29/2014 20:36:39" />
+    <file relUrl="Webpages/Templates/Site.Master" publishTime="05/29/2014 20:35:24" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="05/29/2014 19:51:02" />
+  </publishProfile>
+</publishData>
