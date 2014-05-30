@@ -67,6 +67,11 @@
       <DependentUpon>MOSSchema.xsd</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="Webpages\Private\LoanDetails.aspx.cs">
       <DependentUpon>LoanDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -105,6 +110,10 @@
       <DependentUpon>MOSSchema.xsd</DependentUpon>
     </None>
     <Content Include="Webpages\Templates\Site.Master" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
