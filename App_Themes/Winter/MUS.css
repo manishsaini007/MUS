@@ -1,0 +1,660 @@
+
+/**************Begin - Right Directory Tree**************/
+
+.DirectoryTreeMenuItem
+{
+  /*text-decoration : none;
+  color : Navy; 
+  background-color : Transparent; 	
+  font-size: 11px; 
+  font-weight: normal;   
+  padding-left: 0px; 
+  padding-top: 0px; 
+  padding-bottom: 0px; 
+  width:170px;*/
+  /*line-height:10px;	*/  
+  /*list-style-image: url(../DLSENTWebProject/Private/images/folder.gif) ; */	 
+  /*MARGIN-LEFT: 0px; 
+	MARGIN-RIGHT: 0px; 
+	PADDING-TOP: 3px; 
+	color: #00418c*/  
+  text-decoration : none;
+  color : Navy; 
+  background-color : #C0D9AF;/*#E0FFFF;/*#8BB381; /*#e7e7ef; /*#b5b08d;*//* #8BB381;*/
+  font-size: 7pt;   
+  font-weight: normal;
+  font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+  padding-left:2px;   
+}
+
+.DirectoryTreeRootMenuItem
+{
+  text-decoration : none;
+  color : Navy; 
+  background-color : #C0D9AF;/*#8BB381; /*#e7e7ef; /*#b5b08d;*//* #8BB381;*/
+  font-size: 8pt;   
+  font-weight: bold;
+  font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+  padding-left:2px;
+}
+
+.DierctoryTreeSelectedNode
+{	
+	/*color:Black;
+	font-weight:bold;
+	font-size: 12px; */
+	color:Black;
+	font-weight:bold;
+	font-size: 8pt; 
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	padding-left:2px;	
+}
+.DirectoryTreeParentMenuItem
+{		
+	/*font-weight:bold;*/
+	/*height:1px;*/
+	font-weight:bold;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	line-height:12px;	 
+    padding-left:2px;	
+}
+
+.DirectoryTreeMenuSubItem
+{
+	/*text-decoration: none; 
+	height:1px;	
+	vertical-align:top;*/
+	
+	text-decoration: none; 	
+	vertical-align:top;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	line-height:12px;	
+	padding-left:2px; 
+}
+
+.DierctoryTreeSelectedNode
+{
+ 		
+}
+
+/**************End - Right Directory Tree**************/
+
+/***************Begin - Quick search*********************/
+
+.QuickSearchControl
+{
+    font-family: Tahoma, Verdana, Helvetica, sans-serif;
+    font-size: 7pt;
+	font-weight: bold;
+	color:#444444;
+	background-color: #F0F0E8;
+}
+
+.QuickSearchControlDropDownItem
+{
+	font-family: Tahoma, Verdana, Helvetica, sans-serif;
+    font-size: 7pt;
+	font-weight: normal;
+}
+
+/***************End - Quick search*********************/
+
+/**********Begin - Left Menu and Tab Menus ********/
+
+.PageMenuItem 
+{
+  background-color: #e2e0d3;
+  border: solid 1px #000000;
+  color:#000000; 
+  font-family: Arial, Tahoma, Verdana;
+  font-size:12px; 
+  cursor:default;
+  padding: 3px 10px 3px 10px;
+}
+
+.PageMenuItemHover 
+{
+  background-color: #ff9900;
+  border: solid 1px #000000;
+  color: #000000;
+  font-family: Arial, Tahoma, Verdana;
+  font-size:  12px; 
+  cursor: default;
+  padding: 3px 10px 3px 10px;
+}
+
+.PageMenuItemHover a:link, .PageMenuItemHover a:vlink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.PageMenuItemSelected
+{
+  background: #336699;
+  border: solid 1px #000000;
+  color:#e2e0d3;
+  font-family: Arial, Tahoma, Verdana;
+  font-size:12px; 
+  cursor:default;
+  padding: 3px 10px 3px 10px;
+}
+
+.PageMenuItemSelected a:link, .PageMenuItemSelected a:vlink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/**********End - Left Menu and Tab Menus ********/
+
+/*******************************Begin - LOD-REDESIGN ******************************/
+
+TR.moduleHeader {
+	BACKGROUND-COLOR: #bdcbde
+}
+
+TR.moduleRow {
+	BACKGROUND-COLOR: #F0F0E8;
+	font-style:normal;
+	color:#00418c;
+}
+
+TABLE.moduleRow
+{
+	background-color: White;
+}
+
+.moduleHeader {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	COLOR: #636563; 
+	FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	TEXT-DECORATION: none
+} 
+TD.moduleRow {
+	FONT-SIZE: 11px; 
+	COLOR: #00418c; 
+	FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	TEXT-DECORATION: none
+}
+
+a.moduleRow
+{
+	color: #00418c;    	
+    border-bottom: 1px;    
+}
+
+.moduleRow {
+	FONT-SIZE: 11px; 
+	COLOR: #00418c; 
+	FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	TEXT-DECORATION: none;  
+}
+
+.moduleColumn {
+	FONT-SIZE: 11px; 
+	COLOR: #00418c; 
+	FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	TEXT-DECORATION: none;
+	BACKGROUND-COLOR: #e7e7ef;
+}
+
+input.moduleRow {
+	FONT-SIZE: 11px; 
+	COLOR: #00418c; 
+	FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	TEXT-DECORATION: none;
+	border-left-style:groove;
+	border-right-style:groove;
+	border-bottom-style:groove;
+	border-top-style:groove
+}
+
+.moduleFooter {
+	FONT-SIZE: 9px; 
+	COLOR: #666666; 
+	FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+
+
+.lod_Disabled
+{
+	FONT-SIZE: 11px; 
+	COLOR: #00418c; 
+	FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; 		
+	background-color: #eeffee;
+	border:solid 1px #c7c2a0;
+	border-bottom:solid 1px;
+	border-right:solid 1px;
+}
+
+.lodTableBorder
+{
+	border:solid;border-width:1px;border-color: #98AFC7;background-color:#F0F0E8;
+	
+}
+
+.lodFooter
+{
+  color:Gray; 
+  font-family: Tahoma, Verdana, Arial; 
+  font-size: 7pt; 
+  padding:1px;
+  border:0px; 
+  border-color:none; 
+  border-style:none; 
+  border-top-color:#D6C99A; 
+  height:14px;
+  vertical-align:top;
+}
+
+.cdBox{border:1px solid #cccccc;margin-bottom:10px;}
+.cdBoxTop{border:1px solid #cccccc;margin-bottom:10px;background-color:#F4F4F4;background-image:url(../Images/sidebxtop.gif);background-repeat: repeat-x;color: Black;font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size:11px;line-height:1.5em;font-weight:normal;}
+.lodButton{border-left-color: #006699;
+	border-top-color: #006699;	
+	border-right-color: #000000;
+	border-bottom-color: #000000;	
+	border-width: 1px;
+	border-style: outset;
+	font-family: Tahoma, Verdana;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #7088a2;
+	height: 22px;
+	background-image:url(../Images/lodbutton.gif);}
+.lodButtonDisabled{border-left-color:  Gray;
+	border-top-color: Gray;	
+	border-right-color: Gray;
+	border-bottom-color: Gray;	
+	border-width: 1px;
+	border-style: outset;
+	font-family: Tahoma, Verdana;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #7088a2;
+	height: 22px;
+	background-image:url(../Images/lodbutton_disabled.gif);}
+.lodRoundButton{border:1px; border-style: ridge;margin-bottom:10px;background-image:url(../Images/round_button.gif);line-height:2em;}
+.cdBoxTitle{padding:4px 15px 1px 15px;}
+.lodExcelReportHeaderStyle{background-color : Gray; font-weight : bold;}
+.lodExcelReportGridItem{font-size :xx-small;}
+.lodExcelReportGridAltItem{background-color : Yellow; font-size :xx-small;}
+
+.PageSubHeading {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11pt; 
+	COLOR: #466d98; 
+	FONT-STYLE: normal; 
+	FONT-FAMILY: Tahoma, Verdana, Century Gothic, sans-serif; 
+	TEXT-DECORATION: none
+}
+
+.tdBodyTextSmallWOBorder {
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma, Verdana, Century Gothic, Arial, sans-serif; 
+}
+
+.BodyTextSmall {
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma, Verdana, Century Gothic, Arial, sans-serif
+}
+
+OL.CapitalLetter
+{
+	list-style-type: upper-alpha;
+	list-style-position:inside;
+}
+
+OL.InsiderOL
+{
+	list-style-position:inside;	
+}
+
+ul.InsiderUL
+{
+	list-style-position:inside;
+	list-style-type:disc;
+}
+
+/*******************************End - LOD-REDESIGN ******************************/
+
+/*******************************Begin - LA3 ******************************/
+
+.LA3TotalShadeLeft
+{
+	background: #ffdd99;
+	text-align: left;
+	font-size: 12px;
+	color: #330000;
+	font-family: Tahoma, Verdana;
+}
+
+.LA3TotalShadeRight
+{
+	background: #ffdd99;
+	text-align: right;
+	font-size: 12px;
+	color: #330000;
+	font-family: Tahoma, Verdana;
+}
+
+.LA3TotalShadeCenter
+{
+	background: #ffdd99;
+	text-align: center;
+	font-size: 12px;
+	color: #330000;
+	font-family: Tahoma, Verdana;
+}
+
+/*******************************End - LA3 ******************************/
+
+.FormInputData
+{
+	font-family: Tahoma, Arial, Tahoma, sans-serif;
+    font-size: 12px;
+	font-weight: normal;
+	line-height:15px;	/** Cannot fix the line height as DLS pages are getting affected by this. **/
+    padding: 3px 3px 3px 0px;
+}
+
+.LeftAlign
+{
+	text-align:left;
+	font-size:12px;
+	font-family:Tahoma, Verdana;
+}
+
+.RightAlign
+{
+	text-align:right;
+	font-size:12px;
+	font-family:Tahoma, Verdana;
+}
+
+.CenterAlign
+{
+	text-align:center;
+	font-size:12px;
+	font-family:Tahoma, Verdana;
+}
+
+.TotalShade
+{
+	background: #ffdd99;
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+	color: #330000;
+	font-family: Tahoma, Verdana;
+}
+
+.TotalShadeWithoutAlignment
+{
+	background: #ffdd99;
+	font-size:12px;
+	font-weight: bold;
+	color: #000066;
+	font-family:Tahoma, Verdana;
+}
+
+.DisplayblockShade
+{
+	text-align: right;
+	font-size: 12px;
+	font-family: Tahoma, Verdana;
+	background-color: lightgrey;
+}
+
+.hiddencol
+{
+    display:none;
+}
+
+.FormInputData_DisabledTextBox
+{
+	font-family: Tahoma, Verdana, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	color: black;
+	background-color: #eeffee;
+	border:solid 1px #c7c2a0;
+	border-bottom:solid 1px;
+	border-right:solid 1px;
+}
+
+.LeftAlign_DisabledTextBox
+{
+	text-align:left;
+	font-size:12px;
+	font-family:Tahoma, Verdana;
+	color: black;
+	background-color: #eeffee;
+	border:solid 1px #c7c2a0;
+	border-bottom:solid 1px;
+	border-right:solid 1px;
+}
+
+.RightAlign_DisabledTextBox
+{
+	text-align: right;
+	font-size: 12px;
+	font-family: Tahoma, Verdana;
+	color: black;
+	background-color: #eeffee;
+	border:solid 1px #c7c2a0;
+	border-bottom:solid 1px;
+	border-right:solid 1px;
+}
+
+.CenterAlign_DisabledTextBox
+{
+	text-align:center;
+	font-size:12px;
+	font-family:Tahoma, Verdana;
+	background-color: #eeffee;
+	border:solid 1px #c7c2a0;
+	border-bottom:solid 1px;
+	border-right:solid 1px;	
+}
+
+.TotalShade_DisabledTextBox
+{
+	text-align:right;
+	font-size:12px;
+	font-family:Tahoma, Verdana;
+	background-color: #eeffee;
+	border:solid 1px #c7c2a0;
+	border-bottom:solid 1px;
+	border-right:solid 1px;
+}
+
+.DisplayblockShade_DisabledTextBox
+{
+	text-align:right;
+	font-size:12px;
+	font-family:Tahoma, Verdana;
+	background-color: #eeffee;
+	border:solid 1px #c7c2a0;
+	border-bottom:solid 1px;
+	border-right:solid 1px;
+}
+
+.InformationMessage_DisabledTextBox
+{
+	font-family: Tahoma, Verdana;
+	font-weight: bold;
+	font-size: 12px;
+	color: #336699;
+	background-color: #eeffee;
+	border:solid 1px #c7c2a0;
+	border-bottom:solid 1px;
+	border-right:solid 1px;
+}
+
+
+.FormFieldNameNoPadding
+{
+    font-family: Tahoma, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+	font-weight: bold;
+	color:#444444;
+}
+
+.ErrorValidation
+{
+	font-size: 12px;
+	background: #FFE4E1;
+	color: #000000;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.ErrorMessageSmall
+{
+	font-family: Tahoma, Verdana;
+	font-weight: lighter;
+	font-size: 7pt;
+	color: Red;
+}
+
+.InformationMessagePanel
+{
+	background-color: #dadaff;
+}
+
+.InformationMessage
+{
+	font-weight: bold;
+	color:Navy;
+}
+
+.ErrorListHeader
+{
+	border: single 1px #dddddd;
+	background-color: #b4c4d3;
+	font-family: Tahoma, Verdana, sans-serif;
+    font-size: 12px;
+	font-weight: bold;
+	padding: 5px 5px 5px 5px;
+	width:20%;
+}
+
+.ErrorListMessage
+{
+	width:80%;
+	border: single 1px #dddddd;
+	background-color: #dddddd;
+	font-family: Tahoma, Verdana, sans-serif;
+    font-size: 12px;
+	font-weight: bold;
+	padding: 5px 5px 5px 5px;
+}
+
+.FormDataGrid caption
+{
+      font-size: 9pt;
+      font-weight: bold;    
+      font-family: Tahoma, Verdana, sans-serif;  
+}
+
+hr 
+{
+clear:left;
+margin:0px 0;
+padding:0;
+border:0;
+height:1px;
+background:#b4c4d3;
+color:#b4c4d3;
+}
+
+.JurFyTitle
+{
+	font-size: 10pt;
+	font-weight: bold;    
+	font-family: Tahoma, Verdana, Helvetica, Sans-Serif;
+	color:#0000ff;
+}
+
+
+.GridviewScrollHeader TH, .GridviewScrollHeader TD 
+{ 
+    padding: 5px; 
+    font-weight: bold; 
+    white-space: nowrap; 
+    border-right: 1px solid #AAAAAA; 
+    border-bottom: 1px solid #AAAAAA; 
+    background-color: #EFEFEF; 
+    text-align: center; 
+    vertical-align: bottom; 
+} 
+
+.GridviewScrollItem TD 
+{ 
+	font-size:12px;
+	font-family:Tahoma, Verdana;
+    padding: 5px; 
+    white-space: nowrap; 
+    border-right: 1px solid #AAAAAA; 
+    border-bottom: 1px solid #AAAAAA; 
+    background-color: #FFFFFF; 
+} 
+
+.GridviewScrolAlternatinglItem TD 
+{ 
+	font-size:12px;
+	font-family:Tahoma, Verdana;
+    padding: 5px; 
+    white-space: nowrap; 
+    border-right: 1px solid #AAAAAA; 
+    border-bottom: 1px solid #AAAAAA; 
+    background-color: whitesmoke; 
+} 
+
+.GridviewScrollPager  
+{ 
+    border-top: 1px solid #AAAAAA; 
+    background-color: #FFFFFF; 
+} 
+
+.GridviewScrollPager TD 
+{ 
+    padding-top: 3px; 
+    font-size: 14px; 
+    padding-left: 5px; 
+    padding-right: 5px; 
+} 
+
+.GridviewScrollPager A 
+{ 
+    color: #666666; 
+}
+
+.GridviewScrollPager SPAN
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Start - Added by Stellar for 8 of 58 screen*/
+.GridviewCellWithRightBottomBorder
+{
+    border-right: 2px solid #999999;
+    border-bottom: 2px solid #999999;
+}
+
+.GridviewCellWithBottomBorder
+{
+    border-bottom: 2px solid #999999;
+}
+
+.GridviewCellWithRightBorder
+{
+    border-right: 2px solid #999999;
+}
+/* End - Added by Stellar for 8 of 58 screen*/

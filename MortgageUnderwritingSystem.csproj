@@ -46,6 +46,11 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\baseStyle.css" />
+    <Content Include="App_Themes\Fall\MUS.css" />
+    <Content Include="App_Themes\Spring\MUS.css" />
+    <Content Include="App_Themes\Summer\MUS.css" />
+    <Content Include="App_Themes\Winter\MUS.css" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
@@ -89,10 +94,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Themes\Fall\" />
-    <Folder Include="App_Themes\Spring\" />
-    <Folder Include="App_Themes\Summer\" />
-    <Folder Include="App_Themes\Winter\" />
     <Folder Include="BusinessLayer\" />
     <Folder Include="Common\" />
     <Folder Include="DataLayer\" />
