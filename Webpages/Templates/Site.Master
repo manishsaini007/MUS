@@ -5,32 +5,107 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="~/App_Themes/baseStyle.css" runat="server"
+        id="LinkStyleSheet" />
+    <link rel="stylesheet" type="text/css" href="~/App_Themes/Summer/MUS.css" runat="server"
+        id="Link1" />
 </head>
-<body>
+<body style="background-color: Silver">
     <form id="form1" runat="server">
-    <asp:Menu ID="mnuMain" runat="server">
-        <Items>
-            <asp:MenuItem Text="Loan" Value="mnuItemLoanModule">
-                <asp:MenuItem Text="Search Loans" Value="mnuSearchLoans"></asp:MenuItem>
-                <asp:MenuItem Text="Create New Loan" Value="mnuItemNewReservation">
-                </asp:MenuItem>
-                <asp:MenuItem Text="Loan Details" Value="mnuItemLoanDetails"></asp:MenuItem>
-                <asp:MenuItem Text="Borrower Details" Value="mnuBorrowerDetails"></asp:MenuItem>
-                <asp:MenuItem Text="Property Details" Value="mnuPropertyDetails"></asp:MenuItem>
-            </asp:MenuItem>
-            <asp:MenuItem Text="Admin" Value="mnuAdminModule">
-                <asp:MenuItem Text="Lenders" Value="mnuLenderAdmin"></asp:MenuItem>
-            </asp:MenuItem>
-        </Items>
-                
-    
-    </asp:Menu>
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
+    <div style="vertical-align: baseline">
+
+        <table style="border-color:#737373 ;border-style:solid;border-width:thick;background-color: White; padding:5px; text-align: left" border="0" cellpadding="0px"
+            cellspacing="0px" align="center">
+        <tr>
+        <td> 
+            <!-- This is the Main Appication area -->
+            <table id="tbl_header" runat="server" style="height:65px" cellpadding="0" border="0" cellspacing="0" width="100%">
+                <tr id="tr_header" runat="server" align="left" style="">
+                    <td>
+                    <h2>Mortgage Underwriting System</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <asp:Label ID="Label5" runat="server" Text="Welcome! Administrator"></asp:Label>&nbsp;    
+                        <asp:LinkButton ID="LinkButton2" runat="server">Change My Profile</asp:LinkButton>&nbsp;                 
+                        <asp:LinkButton ID="LinkButton1" runat="server">Logout</asp:LinkButton>
+                     </td>                
+                </tr>
+            </table>        
+            <!-- Top menu -->
+            <table border="0" cellpadding="0px" cellspacing="0px" width="915px">
+                <tr id="tr_MasterMenu" runat="server" style="background-color:Gray">
+                    <td>
+                        <asp:Menu ID="mnuMain" Orientation="Horizontal" runat="server"
+                                StaticMenuItemStyle-CssClass="PageMenuItem"
+                                StaticHoverStyle-CssClass="PageMenuItemHover"
+                                StaticSelectedStyle-CssClass="PageMenuItemSelected">    
+                            <Items>
+                                <asp:MenuItem Text="Loan" Value="mnuItemLoanModule">
+                                    <asp:MenuItem Text="Search Loans" Value="mnuSearchLoans"></asp:MenuItem>
+                                    <asp:MenuItem Text="Create New Loan" Value="mnuItemNewReservation">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem Text="Loan Details" Value="mnuItemLoanDetails"></asp:MenuItem>
+                                    <asp:MenuItem Text="Borrower Details" Value="mnuBorrowerDetails"></asp:MenuItem>
+                                    <asp:MenuItem Text="Property Details" Value="mnuPropertyDetails"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Admin" Value="mnuAdminModule">
+                                    <asp:MenuItem Text="Lenders" Value="mnuLenderAdmin"></asp:MenuItem>
+                                </asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+                    </td>
+                </tr>
+            </table>
+            <!-- Main Content -->
+            <table border="0" cellpadding="0px" cellspacing="0px" width="915px" style="height:100%;;min-height:300px">
+                <tr>
+                    <td>
+                        <h1 style="text-align:center">
+                            <asp:ContentPlaceHolder ID="head" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table cellspacing="0" cellpadding="0" border="0" style="height:100%">
+                            <tr style="width:100%;">
+                                <td width="915px" valign="top" id="td_PageContent" runat="server" class="BackgroundLOS">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr id="tr_footer" runat="server" valign="bottom">
+                    <td>
+                        <table width="100%" border="0" cellpadding="0px" cellspacing="0px" style="height:28px;
+                            vertical-align:bottom; color:Gray;">
+                            <tr align="center" class="FooterFontWhite">
+                                <td style="height:3px" valign="bottom">
+                                    <hr style="color:Green;" />
+                                </td>
+                            </tr>
+                            <tr valign="middle" class="FooterFontWhite" style="height:20px; font-size:smaller">
+                                <td align="center" valign="top">
+                                    <table cellspacing="0" cellpadding="0" border="0px" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" width="38%" style="padding-left:7px">Mortgage Underwriting System</td>
+                                            <td align="center" valign="top" width="32%">Support: <a href="mailto:manishzaini@hotmail.com">manishzaini@hotmail.com</a> / (000)-000-0000</td>
+                                        </tr>                                                
+                                    </table>     
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>    
+        </tr>    
+        </table>
     </div>
     </form>
 </body>
