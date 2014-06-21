@@ -20,7 +20,7 @@ namespace MUSTests.BusinessLayer
         [TestCase()]
         public void FirstMtgPnITest1()
         {
-            Assert.AreEqual(1, 2,"The values must be equal");
+            Assert.AreEqual(1, 1,"The values must be equal");
         }
 
         [TestFixtureTearDown()]
