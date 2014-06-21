@@ -41,7 +41,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Task1\MortgageUnderwritingSystem\MortgageUnderwritingSystem.csproj">
+    <ProjectReference Include="..\MortgageUnderwritingSystem.csproj">
       <Project>{D5959731-9F51-4352-98AD-102CDDEF1302}</Project>
       <Name>MortgageUnderwritingSystem</Name>
     </ProjectReference>
