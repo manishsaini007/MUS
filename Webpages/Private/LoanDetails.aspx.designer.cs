@@ -22,13 +22,13 @@ namespace MortgageUnderwritingSystem.Webpages.Private {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// txtLoanAmount control.
+        /// txt1stLoanAmount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtLoanAmount;
+        protected global::System.Web.UI.WebControls.TextBox txt1stLoanAmount;
         
         /// <summary>
         /// Label2 control.
@@ -40,13 +40,13 @@ namespace MortgageUnderwritingSystem.Webpages.Private {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// txtInterestRate control.
+        /// txt2ndtLoanAmount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtInterestRate;
+        protected global::System.Web.UI.WebControls.TextBox txt2ndtLoanAmount;
         
         /// <summary>
         /// Label3 control.
@@ -58,13 +58,13 @@ namespace MortgageUnderwritingSystem.Webpages.Private {
         protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// txtPnI control.
+        /// txt1stInterestRate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPnI;
+        protected global::System.Web.UI.WebControls.TextBox txt1stInterestRate;
         
         /// <summary>
         /// Label4 control.
@@ -76,13 +76,85 @@ namespace MortgageUnderwritingSystem.Webpages.Private {
         protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// txtTaxes control.
+        /// txt2ndInterestRate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTaxes;
+        protected global::System.Web.UI.WebControls.TextBox txt2ndInterestRate;
+        
+        /// <summary>
+        /// Label12 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label12;
+        
+        /// <summary>
+        /// txt1stPnI control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label txt1stPnI;
+        
+        /// <summary>
+        /// Label13 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label13;
+        
+        /// <summary>
+        /// txt2stPnI control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label txt2stPnI;
+        
+        /// <summary>
+        /// Label14 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label14;
+        
+        /// <summary>
+        /// txtMonthlyIncome control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtMonthlyIncome;
+        
+        /// <summary>
+        /// Label15 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label15;
+        
+        /// <summary>
+        /// txtProposedTaxesHOAInsurance control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtProposedTaxesHOAInsurance;
         
         /// <summary>
         /// Label5 control.
@@ -94,13 +166,13 @@ namespace MortgageUnderwritingSystem.Webpages.Private {
         protected global::System.Web.UI.WebControls.Label Label5;
         
         /// <summary>
-        /// TextBox1 control.
+        /// txtProposedHousingExpense control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.Label txtProposedHousingExpense;
         
         /// <summary>
         /// Label6 control.
@@ -112,13 +184,13 @@ namespace MortgageUnderwritingSystem.Webpages.Private {
         protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
-        /// TextBox2 control.
+        /// txtOtherMonthlyDebt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txtOtherMonthlyDebt;
         
         /// <summary>
         /// Label7 control.
@@ -130,13 +202,13 @@ namespace MortgageUnderwritingSystem.Webpages.Private {
         protected global::System.Web.UI.WebControls.Label Label7;
         
         /// <summary>
-        /// TextBox3 control.
+        /// txtTotalHousingExpense control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.Label txtTotalHousingExpense;
         
         /// <summary>
         /// Label8 control.
@@ -148,13 +220,13 @@ namespace MortgageUnderwritingSystem.Webpages.Private {
         protected global::System.Web.UI.WebControls.Label Label8;
         
         /// <summary>
-        /// TextBox4 control.
+        /// txtDTIRatio control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.Label txtDTIRatio;
         
         /// <summary>
         /// Label9 control.
@@ -166,13 +238,13 @@ namespace MortgageUnderwritingSystem.Webpages.Private {
         protected global::System.Web.UI.WebControls.Label Label9;
         
         /// <summary>
-        /// TextBox5 control.
+        /// txtTDTIRatio control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.Label txtTDTIRatio;
         
         /// <summary>
         /// Label10 control.
@@ -184,13 +256,13 @@ namespace MortgageUnderwritingSystem.Webpages.Private {
         protected global::System.Web.UI.WebControls.Label Label10;
         
         /// <summary>
-        /// TextBox6 control.
+        /// txtLTVRatio control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.Label txtLTVRatio;
         
         /// <summary>
         /// Label11 control.
@@ -202,30 +274,30 @@ namespace MortgageUnderwritingSystem.Webpages.Private {
         protected global::System.Web.UI.WebControls.Label Label11;
         
         /// <summary>
-        /// TextBox7 control.
+        /// txtCLTVRatio control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.Label txtCLTVRatio;
         
         /// <summary>
-        /// Button1 control.
+        /// btnCalculate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnCalculate;
         
         /// <summary>
-        /// Button2 control.
+        /// btnSave control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button btnSave;
     }
 }
