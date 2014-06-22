@@ -29,8 +29,7 @@ namespace MUSTests.BusinessLayer
 
             double expectedPnI = Financial.Pmt((_mtgCalculator.FirstInterest / 100) / 12, _mtgCalculator.FirstTerms, 0 - _mtgCalculator.FirstLoanAmount, 0, 0);
 
-            //Assert.AreEqual((Double)Math.Round(expectedPnI,2), (Double)Math.Round(_mtgCalculator.CalculateFirstPnI(), 2),0.10);
-            Assert.AreEqual((Double)Math.Round(expectedPnI, 2), 0, 0.10);
+            Assert.AreEqual((Double)Math.Round(expectedPnI,2), (Double)Math.Round(_mtgCalculator.CalculateFirstPnI(), 2),0.10);
         }
 
         [TestCase()]
@@ -43,8 +42,7 @@ namespace MUSTests.BusinessLayer
 
             double expectedPnI = Financial.Pmt((_mtgCalculator.SecondInterest / 100) / 12, _mtgCalculator.SecondTerms, 0 - _mtgCalculator.SecondLoanAmount, 0, 0);
 
-            //Assert.AreEqual((Double)Math.Round(expectedPnI,2), (Double)Math.Round(_mtgCalculator.CalculateSecondPnI(), 2), 0.10);
-            Assert.AreEqual((Double)Math.Round(expectedPnI, 2), 0, 0.10);
+            Assert.AreEqual((Double)Math.Round(expectedPnI,2), (Double)Math.Round(_mtgCalculator.CalculateSecondPnI(), 2), 0.10);
         }
 
         [TestCase()]
