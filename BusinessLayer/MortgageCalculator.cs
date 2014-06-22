@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Web;
+using Microsoft.VisualBasic;
 
 namespace MortgageUnderwritingSystem.BusinessLayer
 {
@@ -78,12 +79,12 @@ namespace MortgageUnderwritingSystem.BusinessLayer
 
         public double CalculateFirstPnI()
         {
-            return 0;
+            return Math.Round(Financial.Pmt((this.FirstInterest / 100) / 12, this.FirstTerms, 0 - this.FirstLoanAmount, 0, 0), 2); ;
         }
 
         public double CalculateSecondPnI()
         {
-            return 0;
+            return Math.Round(Financial.Pmt((this.SecondInterest / 100) / 12, this.SecondTerms, 0 - this.SecondLoanAmount, 0, 0), 2);
         }
 
         public double CalculateProposedHousingExpense()
