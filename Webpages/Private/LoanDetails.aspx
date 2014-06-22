@@ -22,6 +22,19 @@
         </tr>
         <tr>
             <td>&nbsp;</td>
+            <td align="right"><asp:Label ID="Label16" runat="server" Text="Primary Mtg. Terms:" CssClass="FormFieldName"></asp:Label></td>
+            <td align="left">
+                <asp:TextBox ID="txt1stTerms" runat="server" CssClass="CurrencyTextBox" Text="360"></asp:TextBox>
+            </td>
+            <td>&nbsp;</td>
+            <td align="right"><asp:Label ID="Label17" runat="server" Text="Secondary Mtg. terms:" CssClass="FormFieldName"></asp:Label></td>
+            <td align="left">
+                <asp:TextBox ID="txt2ndTerms" runat="server" CssClass="CurrencyTextBox" Text="360"></asp:TextBox>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
             <td align="right"><asp:Label ID="Label3" runat="server" Text="Primary Mtg. Interest:" CssClass="FormFieldName"></asp:Label></td>
             <td align="left">
                 <asp:TextBox ID="txt1stInterestRate" runat="server" CssClass="CurrencyTextBox"></asp:TextBox>
